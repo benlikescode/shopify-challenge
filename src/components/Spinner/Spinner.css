@@ -1,0 +1,17 @@
+.spinnerWrapper {
+  height: 60px;
+  width: 60px;
+}
+
+.spinnerWrapper svg {
+  height: 100%;
+  width: 100%;
+  fill: #10b981;
+  animation: loading-spinner .5s linear infinite;
+}
+
+@keyframes loading-spinner {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,52 @@
+.postWrapper {
+  box-sizing: border-box;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 3px;
+  padding: 10px;
+  color: rgb(75, 85, 99);
+}
+
+.title {
+  color: #374151;
+  padding: 0.8rem 0;
+}
+
+.postMedia {
+  width: 100%;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.postDescription {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapper svg {
+  height: 24px;
+  width: 24px;
+  color: #9CA3AF;
+}
+
+.liked svg {
+  color: #EF4444;
+}
+
+.btnsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.adjustTextBtn {
+  color: #0D9488;
+  font-weight: 600;
+}
